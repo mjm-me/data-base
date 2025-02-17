@@ -21,17 +21,17 @@
 ## Libros: Contiene la información de los libros disponibles en la biblioteca.
     - LibroID: Identificador único del libro.
     - Titulo: Título del libro.
-    - Autor: Autor del libro.
+    - Signatura: signatura del libro.
     - Genero: Género del libro.
-    - AñoPublicacion: Año de publicación del libro.
+    - AñoPublicación: Año de publicación del libro.
     - Disponible: Indica si el libro está disponible para préstamo.
 
 ## Préstamos: Registra los préstamos realizados.
-    - PrestamoID: Identificador único del préstamo.
+    - PréstamoID: Identificador único del préstamo.
     - UsuarioID: Identificador del usuario que realizó el préstamo.
     - LibroID: Identificador del libro prestado.
-    - FechaPrestamo: Fecha en que se realizó el préstamo.
-    - FechaDevolucion: Fecha en que el libro debe ser devuelto.
+    - FechaPrástamo: Fecha en que se realizó el préstamo.
+    - FechaDevolución: Fecha en que el libro debe ser devuelto.
 
 ## Empleados: trabajadores de la biblioteca incluido el director
     - EmpleadoID: Identificador único del empleado.
